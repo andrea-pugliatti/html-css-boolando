@@ -71,4 +71,33 @@ header {
     }
 }
 
+footer {
+    background-color: var(--bld-black);
+    color: var(--bld-gray);
+    padding: 2rem 0;
+    line-height: 1.5rem;
+    
+    span {
+        font-weight: 800;
+        color: var(--bld-gray);
+    }
 
+    .socials {
+        align-items: flex-end;
+        font-size: .8rem;
+    }
+
+    a {
+        display: inline-block;
+        text-decoration: none;
+        font-size: .8rem;
+        font-weight: 400;
+        color: var(--bld-gray);
+        padding-right: .3rem;
+    }
+
+    i {
+        font-size: 1rem;
+        padding-left: .3rem;
+    }
+}
