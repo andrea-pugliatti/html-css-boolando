@@ -1,5 +1,19 @@
+/* Reset */
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+/* Common */
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
+/* Utils */
+.container {
+  width: 70%;
+  max-width: 1000px;
+  margin: auto;
 }
