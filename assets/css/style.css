@@ -71,6 +71,27 @@ header {
     }
 }
 
+/* Cards */
+.card {
+    margin: 1rem;
+}
+
+.image-container {
+    width: 450px;
+}
+
+.card-caption {
+    .price-new {
+        color: red;
+        font-weight: 800;
+    }
+
+    .price-old {
+        text-decoration: line-through;
+    }
+}
+
+/* Footer */
 footer {
     background-color: var(--bld-black);
     color: var(--bld-gray);
