@@ -72,6 +72,10 @@ header {
 }
 
 /* Cards */
+main .container {
+    flex-wrap: wrap;
+}
+
 .card {
     margin: 1rem;
 }
