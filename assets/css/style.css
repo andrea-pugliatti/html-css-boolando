@@ -109,6 +109,10 @@ main .container {
 		position: absolute;
 		top: 1rem;
 		right: 0;
+
+        &:hover {
+            color: var(--bld-red);
+        }
 	}
 
 	.label {
@@ -140,6 +144,7 @@ main .container {
 	&:hover .image-hover {
 		opacity: 1;
 	}
+
 }
 
 .card-caption {
