@@ -22,14 +22,14 @@ body {
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 /* Utils */
 .container {
-  width: 70%;
-  max-width: 1000px;
-  margin: 0 auto;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .d-flex-r {
@@ -86,7 +86,7 @@ main .container {
 
 .image-container {
     position: relative;
-    width: 450px;
+    width: 350px;
 
     i {
         font-size: 1.3rem;
@@ -99,7 +99,7 @@ main .container {
 
     .label {
         position: absolute;
-        font-size: 1rem;
+        font-size: .9rem;
         padding: .3rem 1rem;
         font-weight: 800;
         color: var(--bld-gray);
