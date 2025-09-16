@@ -71,6 +71,10 @@ header {
 	color: var(--bld-gray);
 	background-color: var(--bld-brand-color);
 	padding: 1rem 0;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 1;
 
 	a {
 		text-decoration: none;
@@ -89,6 +93,10 @@ header {
 }
 
 /* Cards */
+main {
+    margin-top: 4rem;
+}
+
 main .container {
 	flex-wrap: wrap;
 }
