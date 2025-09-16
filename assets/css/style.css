@@ -49,6 +49,10 @@ img {
     flex-direction: column;
 }
 
+.left-75 {
+    transform: translateX(75px);
+}
+
 /* Header */
 header {
     color: var(--bld-gray);
@@ -81,7 +85,35 @@ main .container {
 }
 
 .image-container {
+    position: relative;
     width: 450px;
+
+    i {
+        font-size: 1.3rem;
+        padding: 1rem;
+        background-color: white;
+        position: absolute;
+        top: 1rem;
+        right: 0;
+    }
+
+    .label {
+        position: absolute;
+        font-size: 1rem;
+        padding: .3rem 1rem;
+        font-weight: 800;
+        color: var(--bld-gray);
+        bottom: 3rem;
+        left: 0;
+    }
+
+    .sale-label {
+        background-color: var(--bld-red);
+    }
+
+    .green-label {
+        background-color: var(--bld-green);
+    }
 }
 
 .card-caption {
